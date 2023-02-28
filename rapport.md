@@ -17,7 +17,7 @@ Il s'agit d'une application mobile Android open source d'une simple calculatrice
 
 ## Description de l'issue
 
-Lorsque l'on utilise la calculatrice et qu'on affiche une formule ou un résultat, lors de la rotation du mobile, toutes les données précédentes sont perdues.  
+Lorsque l'on utilise la calculatrice et qu'on affiche une formule ou un résultat, lors de la rotation du mobile, toutes les donnés précédentes sont perdues. Cela provient du fait que la rotation du téléphone provoque la fin de l'activité courante (qui contient les données de calcul), et la création d'une nouvelle activité. Cette suite d'évènements est normale pour une application mobile. Cependant il est nécessaire d'implémenter une sauvegarde et une transmission des données entre les activités si nous ne voulons pas que le calcul courant soit écraser lors de la rotation.
 
 ### Environement technique
 
