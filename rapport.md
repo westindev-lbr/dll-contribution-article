@@ -85,4 +85,4 @@ Notre PR a ensuite pu être "merge" et clôturée. L'intégration de notre fix s
 Cela a été l'occasion pour nous de développer et d'approfondir certaines compétences : Kotlin, Android Studio, Git, Github, compréhension des nécessités du travail collaboratif (produire un code bien formaté, produire un code pérenne dans le temps etc).
 Echanger en Anglais, avec le mainteneur d'un projet Open Source.
 
-De plus, l'intérêt pour nous a été de mieux prendre conscience de l'aspect libre de la programmation et de la force que procure le soutien d'une communauté.
+De plus, l'intérêt pour nous a été de mieux prendre conscience de l'aspect libre de la programmation et de la force que procure le soutien d'une communauté derrière des projets.
