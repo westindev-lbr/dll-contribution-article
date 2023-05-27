@@ -65,8 +65,6 @@ Après avoir réglé ces deux problèmes, l'application se comportait tel que no
 
 ##### Propreté du code 
 
-Refactorisation ?
-
 Afin de simplifier le constructeur de l'objet *Calculator* nous avons choisis de ne plus lui donner les variables de sauvegarde en argument. A la place de cela, nous passons par une fonction *set* pour réaffecter les variables sauvegardées : *setFromSaveInstanceState()*.
 
 De plus, nous utilisons un JsonObject pour contenir nos variables de sauvegarde et ainsi n'avoir qu'à stocker ce dernier lors de l'appel à la fonction *onSaveInstanceState()*.
